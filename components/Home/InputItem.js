@@ -4,8 +4,8 @@ import Image from "next/image";
 import GooglePlacesAutocomplete from "react-google-places-autocomplete";
 
 // Import your context (make sure you have these created correctly)
-import { SourceContext } from "@/context/SourceContext";
-import { DestinationContext } from "@/context/DestinationContext";
+import { SourceContext } from "../../context/SourceContext";
+import { DestinationContext } from "../../context/DestinationContext";
 
 function InputItem({ type }) {
   const [value, setValue] = useState(null);
