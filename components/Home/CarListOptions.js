@@ -1,6 +1,6 @@
 import React, { use, useState } from "react";
 import CarListItems from "./CarListItems";
-import { CardListData } from "@/utils/CartListData";
+import { CardListData } from "../../utils/CartListData";
 import { useRouter } from "next/navigation";
 function CarListOptions({ distance }) {
   // Fixed useState destructuring

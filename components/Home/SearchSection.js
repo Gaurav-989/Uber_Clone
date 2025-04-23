@@ -1,8 +1,8 @@
 "use client";
 import React, { useContext, useEffect, useState } from "react";
 import InputItem from "./InputItem";
-import { SourceContext } from "@/context/SourceContext";
-import { DestinationContext } from "@/context/DestinationContext";
+import { SourceContext } from "../../context/SourceContext";
+import { DestinationContext } from "../../context/DestinationContext";
 import CarListOptions from "./CarListOptions";
 
 function SearchSection() {
